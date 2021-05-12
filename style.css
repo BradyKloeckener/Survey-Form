@@ -1,0 +1,76 @@
+body{
+  background: url(https://images.unsplash.com/photo-1619708582287-0395cc9dedac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)  no-repeat center;
+  background-size: cover;
+}
+header{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+#transparent-box{
+  background-color: black;
+  border: 1px solid black;
+  width:50%;
+  margin:auto;
+  opacity: 0.6;
+ }
+#survey-form{
+  margin: 5%;
+  padding: 10px;
+  align-items: center;
+  color:white;
+  font-weight:bold;
+}
+label{
+  display: flex;
+  flex-direction: column;
+}
+label input{  
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 2%;
+}
+#dropdown-label{
+  margin-top: 1%;
+}
+#dropdown-label select{
+  padding: 1%;
+  margin-top: 1%;
+}
+optgroup{
+  font-size: 14px;
+}
+#radio-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+#radio-section label{
+  display: inline;
+}
+.checkbox-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.checkbox-section label{
+  display: inline;
+}
+
+#comments-label{
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-bottom: 2%;
+}
+#comments{
+  margin-top: 1%;
+}
+
+#submit-section button{
+  width: 100%;
+  padding: 2%;
+  margin-top: 2%;
+  border: none;
+}

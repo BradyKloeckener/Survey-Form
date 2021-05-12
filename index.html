@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body>
+  <header>
+    <h1 id= "title"> Survey Form Project</h1>
+    <p id= "description"><i>Thank you for taking the time to complete this form</i></p>
+  </header>
+ <div id= "transparent-box">
+  <form id = "survey-form">
+    <label id= "name-label" for= "name" > Name 
+      <input type= "text" id= "name" placeholder= "Enter your name" required/>
+     </label>
+    <label id= "email-label" for= "email"> Email 
+      <input type= "email" id= "email" placeholder= "Enter your email"required/>
+     </label>
+    <label id= "number-label" for= "number"> Number
+      <input type= "number" id= "number" min=0 max =100 placeholder= "Enter a number">
+     </label>
+
+    <label id= "dropdown-label" for= "dropdown">Select from the dropdown menu:
+      <select id= "dropdown">
+        <optgroup>
+          <option selected= "selected">Pleease Select a value</option>
+          <option value= "option 1"> option 1</option>
+          <option value= "option 2"> option 2</option>
+        </optgroup>
+      </select>
+    </label>
+
+    <section id="radio-section">
+      Select 1 of the following:
+      <label for= "radio-1">
+      <input id= "radio-1" type= "radio" name= "radioElements" value= "Choice-1"/>
+        Choice 1
+       </label>
+      <label for= "radio-2">
+      <input id= "radio-2" type= "radio" name= "radioElements" value= "Choice 2">
+        Choice 2
+      </label>
+    </section>
+
+    <section class= "checkbox-section">
+      Select as many as you want from below:
+      <label for= "checkbox-1">
+        <input type= "checkbox" id= "checkbox-1" value= "Checkbox 1"> Checkbox 1
+      </label>
+      <label for= "checkbox-2">
+        <input type= "checkbox" id= "checkbox-2" value= "Checkbox 1"> Checkbox 2
+      </label>
+      <label for= "checkbox-3">
+        <input type= "checkbox" id= "checkbox-3" value= "Checkbox 1"> Checkbox 3
+      </label>
+    </section>
+
+  <label id= "comments-label" for= "comments">
+    Comments and Concerns 
+    <textarea id= "comments" rows= "10" placeholder= "We would love to hear your commments"> </textarea>
+</label>
+
+    <section id= "submit-section">
+      <button id= "submit"> Submit </button>
+    </section>
+  </div>
+  </form>
+
+</body>
+<!-- partial -->
+  
+</body>
+</html>
